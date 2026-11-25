@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpmenu",
+  "version": "${version}",
+  "name": "Ultimate PvP Utilities",
+  "description": "An all-in-one, fair-play PvP utility mod: a sleek overlay menu, HUD cards, a fully custom crosshair and visual tweaks. Client-side only.",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "icon": "assets/pvpmenu/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.pvpmenu.PvpMenuClient"
+    ]
+  },
+  "mixins": [
+    "pvpmenu.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

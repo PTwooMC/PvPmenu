@@ -1,0 +1,24 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.pvpmenu.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "HeldItemRendererMixin",
+    "InGameOverlayRendererMixin",
+    "HandledScreenAccessor",
+    "ParticleManagerMixin",
+    "SimpleOptionMixin",
+    "AbstractSoundInstanceMixin",
+    "CameraMixin",
+    "EntityMixin",
+    "LivingEntityMixin",
+    "LavaFogMixin",
+    "WaterFogMixin",
+    "NoFogMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
